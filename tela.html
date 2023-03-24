@@ -1,0 +1,83 @@
+<html style="border-color: red; margin:10px">
+
+<head>
+</head>
+<style>
+    * {
+        margin: 5px;
+        padding: 5px;
+        border: 1px dotted blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    img:hover,
+    p:hover,
+    div:hover {
+        border: 4px dashed red;
+    }
+
+    p {
+        border: 1px solid;
+        background-color: blue;
+    }
+
+    p.classe1 {
+        border: 5px dashed red;
+    }
+
+    p.verde {
+        border: 5px dashed;
+        color: green;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .btn {
+        width: 50%;
+        padding: 0px;
+        margin: 5px;
+        border-collapse: collapse;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        border: 3px solid black;
+        margin: 20px 20px 0px 20px;
+        background-color: #00000010;
+    }
+</style>
+
+<body style="border-color:black">
+    <div class="menu">
+        <button class="btn" style="border-color: green;">Enviar</button>
+        <button class="btn">Enviar</button>
+        <button class="btn" style="border-color: blue;">Enviar</button>
+    </div>
+    <div style="border:5px solid black; margin: 0px">
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+            <div style="display: flex; flex-direction: column; -ms-flex-align: center;">
+                <img src="IMG\icons8-pharmacy-shop-96.png"><br>
+                <img src="IMG\icons8-hospital-2-96.png"><br>
+                <img src="IMG\icon_nurse.png"><br>
+                <p>parágrafo 3</p>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <img src="IMG\farol.jpg" />
+                    <h1 class="menu">Farol 1</h1>
+                    <p>parágrafo 1</p>
+                    <p>parágrafo 2</p>
+                    <p>parágrafo 3</p>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <img src="IMG\farol-2.jpg">
+                    <p class="verde">Farol 2</p>
+                    <p>parágrafo 2</p>
+                    <p style="background-color: yellow;">parágrafo 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

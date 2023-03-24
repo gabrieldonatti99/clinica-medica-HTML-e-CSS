@@ -1,0 +1,95 @@
+/* 
+
+CSS de exemplo 
+Exemplos de classes com diversas configurações
+
+*/
+
+.container_main {
+    width: 100%;
+    background: #87cacf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+div.imagem {
+    /* */
+    background-image: url('IMG/medical_group_home.png');    
+    border: 1px dashed #22a7f2;
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+div.menu {
+    background-image: url("IMG/medical_group_home.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-color: transparent;
+    border: 3px dashed #22a7f2;
+    width: 90%;
+    border-left: groove;    
+}
+
+div.menu li{
+    display: inline;
+    color: red;
+}
+
+div.menu p {
+    display: flex;
+    color: yellow;
+}
+
+div.fixa {
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+div.cardazul {
+    width: 50%;
+    border: 15px dashed lightcoral;
+    padding: 0px;
+    margin: 0 auto;
+    background-color:blue;
+}
+
+div.cardamarelo {
+    display: flex;
+
+    width: 300px;
+    border: 15px dashed green;
+    padding: 0px;
+    margin: auto;
+    background-color:yellow;
+}
+
+/* Quando você quer configurar TAGs genéricas sem esfecificar a classe faça desta maneira */
+
+p {
+    background-color: rgba(68, 84, 229, 0.652);
+}
+
+/* Nesta declaração <TAG>.CLASSE, isto faz com que a classe filha herde as características da
+    classe pai e você pode modificar, uma anologia com o COPIAR e COLAR e modificar a cópia
+    pode ser aplicada neste caso 
+*/
+p.erro {
+    background-color: red;
+}
+
+p.zzz {
+    background-color: yellow;
+    color: blue;
+}
+
+p.zzz1 {
+    background-color: whitesmoke;
+    font-size: 40px;
+    color: blue;
+}
